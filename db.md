@@ -2,7 +2,7 @@
 Strutturate il file come fatto oggi in classe.  Specificate: il nome del database, la tabella e le potenziali colonne con i tipi di dato. -->
 # database name: Video Game Store
 # nome tabelle: Video Games
-- id BIGINT PRIMARYKEY NOTNULL AUTO_INCREMENT UNIQUE
+- id INT PRIMARYKEY NOTNULL AUTO_INCREMENT UNIQUE
 - codice_articolo           number      INT                 UNIQUE
 - titolo                    string      VARCHAR(50)         NOTNULL
 - descrizione               string      TEXT                NULL
